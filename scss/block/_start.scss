@@ -1,0 +1,44 @@
+.start {
+    padding-bottom: 80px;
+}
+
+.start_title {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: #36536b;
+    margin-bottom: 32px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .start {
+        padding-bottom: 100px;
+    }
+
+    .start_title {
+        font-size: 48px;
+        line-height: 117%;
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (min-width: 1110px) {
+    .start {
+        padding-bottom: 96px;
+    }
+
+    .start_title {
+        margin-bottom: 0;
+    }
+
+    .start_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
